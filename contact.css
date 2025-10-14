@@ -1,0 +1,129 @@
+
+.navbar-nav{
+    /* margin-left:800px; */
+    gap:15px;
+    position: fixed;
+    right: 0;
+
+   
+}
+.container-fluid{
+    background-color:rgb(163, 163, 163);
+    padding:20px;
+    margin-top:30px;
+    position: fixed;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(36,32,30);
+    
+}
+
+
+ul li,a:hover{
+    color: red;
+}
+
+/* .contact1{
+    display: flex;
+} */
+
+
+.contact h2{
+    margin-top:40px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(11, 10, 11);
+}
+.contact h2:hover{
+    color: blue;
+}
+.left{ 
+    height:450px;
+    width:630px;
+    margin-top:20px;
+    margin-left:100px;
+     box-shadow: 1px 8px 10px;
+    border-radius: 12px; 
+    padding-left:10px;
+    padding-top:15px ;  
+}
+.left:hover{
+    transform: translateY(-8px);
+    box-shadow: 0.3s ease;
+    height:460px;
+    width:640px ;
+
+}
+
+.left input{
+    height:50px ;
+    max-width:600px ;
+    width:100%;
+    border-radius: 20px;
+    border-color: rgb(19, 19, 20);
+
+    
+}
+.left textarea{
+
+     height:160px ;
+    max-width:600px ;
+    width:100%;
+    border-radius:20px;
+    border-color: rgb(16, 16, 17);
+}
+.left button{
+    height:50px ;
+    max-width:600px ;
+    width:100%;
+    border-radius: 20px;
+    border-color: rgb(22, 22, 24);
+}
+.left button:hover{
+    background-color: rgb(79, 79, 250);
+}
+.contact1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.right{
+    margin-top:40px;
+    border: 1px solid rgb(241, 229, 229);
+    height:420px;
+    max-width:400px;
+    width:100%;
+    margin-left:170px;
+    padding-left: 10px;
+    padding-top: 10px;
+     box-shadow: 1px 8px 10px;
+    border-radius: 12px;  
+    
+}
+.right:hover{
+    transform: translateY(-8px);
+    box-shadow: 0.3s ease;
+    height:430px ;
+    width:410px ;
+
+}
+.right1 a{
+    color: black;
+}
+.right2 img{
+    height:185px;
+    max-width:377px;
+    width:100%;
+}
+@media screen and (max-width:320px) {
+    .right{
+        margin:auto;
+    
+
+    }
+
+}

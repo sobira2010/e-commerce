@@ -1,0 +1,126 @@
+body{
+    
+    background-image: url(image/Home-Landing-scaled.jpeg);
+    
+}
+.navbar-nav{
+    margin-left:900px;
+    gap: 20px;
+    position: fixed;
+    right: 0;
+}
+.container-fluid{
+    background-color:rgb(163, 163, 163);
+    padding: 10px;
+    position: fixed;
+    margin-top:30px;
+}
+
+ ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(36,32,30);
+
+}
+ul li a:hover{
+    color:red;
+}
+.aa h2{
+
+    margin-top:250px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-size:50px;
+    color: rgb(15, 15, 15);
+    margin: auto;
+    padding-top:70px;
+  
+}
+.aa h2:hover{
+    color: blue;
+}
+body{
+    transition:transform 0.2s ease;
+    
+}
+
+.about1{
+ /* margin: auto; */
+ /* display: flex;
+ align-items:end; */
+ margin-top:100px;
+ margin-left:80px;
+ /* justify-content: end; */
+ /* height:400px; */
+ max-width:800px;
+ width:100%;
+ /* border: 1px solid black; */
+ line-height:30px;
+font-size:18px;
+/* font-family:  sans-serif; */
+border-radius:20px;
+border-color:rgb(208, 205, 205);
+ box-shadow:1px 8px 20px rgb(206, 204, 204);
+ background-color: black;
+ color: white;
+
+
+}
+.about1:hover{
+    transform: translateY(-8px);
+    box-shadow: 0.3s ease;
+    width:800px;
+}
+
+.about1 p{
+    /* text-align:justify;   */
+    margin-top:30px;
+    margin-left:10px;
+    
+}
+.about2{
+    height:200px ;
+    max-width:300px ;
+    width:100% ;
+    border: 1px solid black;
+    margin-top:120px;
+    margin-left:40px;
+    border-radius:20px;
+    border-color:rgb(208, 205, 205);
+    box-shadow:1px 8px 20px rgb(206, 204, 204);
+    background-color: black;
+    color:white;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.about2:hover{
+    transform: translateY(-8px);
+    box-shadow: 0.3s ease;
+    height:210px ;
+    width:310px;
+}
+
+.about{
+    display: flex;
+ flex-wrap: wrap;
+}
+.a3{
+    margin-left:80px;
+
+}
+.a4{
+    margin-left:80px;
+}
+@media screen and (max-width:320px) {
+    .about1{
+        margin:auto;
+        margin-top: 20px;
+    
+    }
+    .about2{
+        margin:auto;
+    }
+    
+}
