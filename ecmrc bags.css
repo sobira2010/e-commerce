@@ -1,0 +1,100 @@
+container-fluid{
+    background-color: rgb(216, 210, 204);
+    position: fixed;
+    margin-top:50px;
+    margin-left:100px;
+}
+.navbar-nav{
+    margin-left:900px;
+    gap:15px;
+    padding:22px;
+    right: 0;
+    position: fixed;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(5, 82, 5);
+}
+ul li a:hover{
+    color:red;
+}
+ b{  
+    color: rgb(1, 92, 1);
+     font-size:60px;
+     margin-left: 60px;
+}
+.box99{
+    height:600px;
+    max-width:1530px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap; 
+    padding-left:300px;
+    gap:50px;
+    margin-top:2px;
+    background-color: rgb(225, 214, 214);
+   
+}
+
+.box98{
+    margin-top:100px;
+  height:340px;
+  max-width:300px;
+  width:100%;
+  border: 1px solid rgb(175, 171, 171);
+  background-color:whitesmoke;
+  border-radius:10px;
+  border: none;
+
+}
+input[type="button"]{
+    height:40px;
+    width: 80px;
+    border:1px solid black;
+    background-color:rgb(100, 152, 100);
+     /* margin-left:100px; */
+     border: none;
+
+    }
+button{
+    height:40px;
+    width: 80px;
+    border:1px solid black;
+    background-color:rgb(100, 152, 100);
+     border: none;
+    
+    }
+
+.img13{
+    height:200px;
+    width:200px ;
+    margin-left:50px;
+}
+img{
+    height:200px;
+    width:200px ;
+    margin-left:50px;
+}
+
+.box99 p{
+  margin-left:90px;
+  margin-top:15px;
+  font-weight:bold ;
+  font-size:20px;
+}
+.box99 a{
+  margin-left:100px;
+  font-weight: bolder;
+  font-size:25px ;
+}
+@media screen and (max-width:320px){
+   .box99{
+    margin: auto;
+   }
+    .box98{
+        margin: auto;
+        margin-right:150px;
+    
+    }
+}
